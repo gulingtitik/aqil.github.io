@@ -31,7 +31,7 @@ if ($cek > 0) {
 	//mulai cookie
 	setcookie('nama', $username, time() + 350);
 
-	header("location:indexuser.php");
+	header("location:indexuser.html");
 	
 } else {
 	// menyeleksi data admin dengan username dan password yang sesuai
@@ -56,7 +56,7 @@ if ($cek > 0) {
 		//mulai cookie
 		setcookie('nama', $username, time() + 350);
 
-		header("location:profil.php");
+		header("location:profil.html");
 		exit;
 	}
 }
